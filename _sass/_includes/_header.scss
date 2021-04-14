@@ -39,7 +39,7 @@
 	bottom: 0;
 	right: 0;
 	background-size: cover;
-	background-position: center;
+	background-position: 50% 30%;
 	background-repeat: no-repeat;
 	opacity: 0;
 	@include transition(opacity 0.4s ease-in-out);
@@ -52,6 +52,7 @@
 
 	@include mq(desktop) {
 		width: 25%;
+		background-position: center;
 	}
 }
 
